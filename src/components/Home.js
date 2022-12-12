@@ -44,7 +44,7 @@ function Home() {
   return (
     <StyledDiv>
       <Navbar/>
-      <footer><span> <a href="https://github.com/Abhishekkumar2021/CodeShare"> <AiFillGithub id="icon"/> </a>Contibute to this project </span><span><HiOutlineDotsVertical id="icon"/></span><span> <AiOutlineCopyright id="icon" />Copyright 2022</span></footer>
+      <footer><span> <a href="https://github.com/Gorsi123/CodeShareapp"> <AiFillGithub id="icon"/> </a>Contibute to this project </span><span><HiOutlineDotsVertical id="icon"/></span><span> <AiOutlineCopyright id="icon" />Copyright 2022</span></footer>
     </StyledDiv>
   )
 }
