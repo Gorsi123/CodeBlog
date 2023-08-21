@@ -80,8 +80,9 @@ function All() {
   const [posts,setPosts] = useState([]);
   useEffect(()=>{
     const fetchPosts = async ()=>{
-      const res = await axios.get(`https://codeshareback.herokuapp.com/api/posts/`)
+      const res = await axios.get(`http://localhost:3001/api/posts/`)
       setPosts(res.data);
+      console.log(posts.length)
     }
     fetchPosts();
 
